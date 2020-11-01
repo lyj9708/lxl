@@ -1,0 +1,143 @@
+/* i修改container宽度为1280px */
+
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+/* header */
+
+header {
+    padding-left: 0!important;
+}
+
+
+/* nav */
+
+.nav {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    background-color: blue;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a::before {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+
+/* 新闻模块 */
+
+.news li {
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.news li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+}
+
+.news li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.news li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.news li a p {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 41px;
+    bottom: 0;
+    left: 0;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 12px;
+}
+
+.news li:nth-child(1) a p {
+    font-size: 20px;
+    line-height: 41px;
+    padding: 0px 10px;
+}
+
+.publish {
+    border-top: 1px solid #ccc;
+}
+
+.publish .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.pic img {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.xinwen img {
+    width: 100%;
+    height: 100%;
+}
+
+.resou button {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.resou {
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.resou p {
+    font-size: 12px;
+}
